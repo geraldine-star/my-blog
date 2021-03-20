@@ -8,6 +8,11 @@ body {
     margin-bottom: 50px;
     border-radius: 50%;
 }
+img{
+    transition: transform .2s;
+    border:10px solid: #AAAAAA;
+    
+}
 
 #welcome {
     position: absolute;
