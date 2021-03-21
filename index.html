@@ -9,51 +9,99 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body> <img class="first" src="AVENGERS.jfif">
+    <h1> Grid Gallery</h1> <span>
+            <img id="one" src="black%20widow.jfif" >
+            <img id="two" src="captain%20America.jfif"> 
+            <img id="three" src="Iron%20Man.jfif">
+            <img id="fourth" src="Marvel.jfif">
+            <img id="fifth" src="Thanos.jfif">
+            <img id="sixth" src="Thor.jfif">
+            <img id="seventh" src="Hulk.jfif">
+        </span>
+    <br>
+    <br>
+    <br>
+    <br>
     <div class="container">
         <section id="photo">
-            <h1>Photo Gallery</h1>
-            <div class="line"></div> <img src="AVENGERS.jfif"> </section>
-        <h2>Grid Gallery</h2>
-        <div id="myCarousel" class="carousel slide">
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <center> <img src="black%20widow.jfif" class="img-responsive"> <img src="Hulk.jfif" class="img-responsive"> <img src="captain%20America.jfif" class="img-responsive"> <img src="Iron%20Man.jfif" class="img-responsive"> <img src="Marvel.jfif" class="img-responsive"> <img src="Thanos.jfif" class="img-responsive"> <img src="Thor.jfif" class="img-responsive">
-                        <div class="carousel-content"> </div>
-                    </center>
-                </div>
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
-            </div>
-            <h2>Click On The Play Store Apps To Explore</h2>
-            <h5>This games are bulid in play lab, click on the app to view</h5>
-            <div id="myCarouse2" class="carousel slide">
-                <!-- Wrapper for slides -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                </ol>
                 <div class="carousel-inner">
-                    <div class="item active">
-                        <center>
-                            <a href="#" target="_blank"> <img src="chat_app.png" class="img-responsive"> </a>
-                            <div class="carousel-content">
-                                <p>Chat app</p>
+                    <div class="item-active">
+                        <div class="img-responsive" src="black%20widow.jfif">
+                            <div class=" carousel-caption">
+                                <p> Black Widow</p>
                             </div>
-                        </center>
-                    </div>
-                    <div class="item">
-                        <center>
-                            <a href="#" target="_blank"> <img src="be_fit_img.png" class="img-responsive"> </a>
-                            <div class="carousel-content">
-                                <p>Be Fit Not Fat</p>
-                            </div>
-                        </center>
+                        </div>
                     </div>
                 </div>
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarouse2" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
-                <a class="right carousel-control" href="#myCarouse2" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <div class="img-responsive" src="captain%20America.jfif">
+                            <div class=" carousel-caption">
+                                <p> Captain America</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <div class="img-responsive" src="Iron%20Man.jfif">
+                            <div class=" carousel-caption">
+                                <p> Iron Man</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <div class="img-responsive" src="Marvel.jfif">
+                            <div class=" carousel-caption">
+                                <p> Marvel</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <div class="img-responsive" src="Thanos.jfif">
+                            <div class=" carousel-caption">
+                                <p> Thanos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <div class="img-responsive" src="Thor.jfif">
+                            <div class=" carousel-caption">
+                                <p> Thor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <div class="img-responsive" src="Hulk.jfif">
+                            <div class=" carousel-caption">
+                                <p> Hulk</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="right carousel-control" href="#mycarousel" data-slide="next"> <span class="right"></span> <span class="sr-only">Next</span> </a>
             </div>
-        </div>
+        </section>
+        <hr style="width:100%"> </div>
 </body>
 
 </html>
