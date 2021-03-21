@@ -1,81 +1,59 @@
 <html>
 
 <head>
-    <title>My Favourite.com</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> </head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
 
 <body>
-    <ul class="menu">
-        <li class="links"> <a href="#welcome">About</a></li>
-        <li class="links"> <a href="#Videos">My favourite books</a> </li>
-        <li class="links"> <a href="#work">My Work</a></li>
-        <li class="links"><a href="#Writings">Inspiration</a></li>
-        <li class="links"><a href="#contact">Contact</a></li>
-    </ul>
-    <section id="welcome">
-        <div class="parallax-inner"> <img src="girl.jpg" class="profile" />
-            <h1>I Am <br><span id="name">Geraldine</span></h1>
-            <h2> My Favourite hobby is reading</h2> </div>
-    </section>
-    <section id="bio">
-        <h1>I Love Reading books!</h1>
-        <div class="line"></div>
-        <p>Hobbies play a very important role in our lives. They occupy our minds when we are free and also make us happy. Hobbies are our escape from the real world that makes us forget our worries. Moreover, they make our lives interesting and enjoyable. If we look at it, all our hobbies are very useful for us. They teach us a lot of things about different stuff. They also help in expanding our knowledge.My hobby is reading.Reading sharpens your mind and increases your level of understanding of different things in your life. Reading books help to relieve your stress and uncertainty. They give much-needed relief and relaxation to your mind. It is not only a form of entertainment or a hobby to keep you pleased. </p>
-    </section>
-    <section id="Videos">
-        <h1>Here is a review of of my favourite book- Think like a monk</h1>
-        <div class="line"></div>
-        <br>
-        <div class="line"></div> <a class="article" href=" https://www.goodreads.com/book/show/51942513-think-like-a-monk" target="_blank"> Think like a monk-By Jay shetty # for the Web</a>
-        <br>
-        <br>
-        <iframe width="606" height="340" src="https://www.youtube.com/embed/5hzMjNdAM6U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
-    <section id="Writings">
-        <h1>My Inspiration- Mother Teresa</h1>
-        <div class="line"></div>
-        <br> <span><a href="https://www.motherteresa.org/missionaries-of-charity.html">
-            <img id="picture" src="motherteresa.jpg"></a>
-        </span>
-        <br>
-        <br>
-        <iframe width="717" height="538" src="https://www.youtube.com/embed/I36Nistc9wE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
-    <section id="work" style="width: 100%;">
-        <h1>WORK</h1>
-        <div class="line"></div>
-        <p> Co Founder OF GPS Electrical Maintenance Service</p>
-        <br>
-        <p> GPS firm is specialized in maintaining the transformers including control transformers, generators, transformers for industrial uses, phase-shifting transformers, or HVDC transformers are critical in maintaining trouble-free, uninterrupted power supply. Transformers and Transformer oil filtration. Installation of HT and LT Panels, Retrofitting of all makes & types of HT & LT accessories like Circuit Breakers, Relays and Metering Units. Installation, Testing & Commissioning of Ring Main Unit (RMU’s), Multi Circuit Range (MCR’s). Conduction of HI Voltage tests for HT Cables, Electrical Equipments.</p>
-        <iframe width="956" height="538" src="https://www.youtube.com/embed/gtvwcohfUlM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-        <iframe width="956" height="538" src="https://www.youtube.com/embed/h_82OHRQWFE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
-    <hr>
-    <hr>
-    <section id="contact">
-        <p> Address</p>
-        <p> contact Info: </p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.819381526896!2d79.06613491488633!3d21.199332885906298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c17132333341%3A0x17b43dc37dd99e58!2sNIT%20Park!5e0!3m2!1sen!2sin!4v1615761294780!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <a href="mailto:my@gmail.com?Subject=Hi">
-                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5> </a>
-            <a href="#">
-                <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;myinstagramid</h5> </a>
+    <div class="container">
+        <section id="photo">
+            <h1>Photo Gallery</h1>
+            <div class="line"></div> <img src="AVENGERS.jfif"> </section>
+        <h2>Grid Gallery</h2>
+        <div id="myCarousel" class="carousel slide">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center> <img src="black%20widow.jfif" class="img-responsive"> <img src="Hulk.jfif" class="img-responsive"> <img src="captain%20America.jfif" class="img-responsive"> <img src="Iron%20Man.jfif" class="img-responsive"> <img src="Marvel.jfif" class="img-responsive"> <img src="Thanos.jfif" class="img-responsive"> <img src="Thor.jfif" class="img-responsive">
+                        <div class="carousel-content"> </div>
+                    </center>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+            </div>
+            <h2>Click On The Play Store Apps To Explore</h2>
+            <h5>This games are bulid in play lab, click on the app to view</h5>
+            <div id="myCarouse2" class="carousel slide">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <a href="#" target="_blank"> <img src="chat_app.png" class="img-responsive"> </a>
+                            <div class="carousel-content">
+                                <p>Chat app</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a href="#" target="_blank"> <img src="be_fit_img.png" class="img-responsive"> </a>
+                            <div class="carousel-content">
+                                <p>Be Fit Not Fat</p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarouse2" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                <a class="right carousel-control" href="#myCarouse2" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+            </div>
         </div>
-        <div class="contact_2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <form> <span>Name : </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="text" name="name" required>
-                <br>
-                <br> <span>Comment : </span>
-                <input type="text" name="comment" required>
-                <br>
-                <br>
-                <input type="submit" value="submit" class="btn btn-success"> </form>
-        </div>
-    </section>
 </body>
 
 </html>
